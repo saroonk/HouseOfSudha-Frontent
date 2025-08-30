@@ -163,7 +163,61 @@ html, body {
   
         padding: 3px ;
     }
-    
+
+
+
+
+
+
+
+
+    .main-image-slider {
+  position: relative;
+}
+
+.main-image-slider .owl-nav {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  pointer-events: none; 
+}
+
+.main-image-slider .owl-nav button {
+  background-color: rgb(213, 209, 209) !important; /* circle background */
+  border: none !important;           /* remove default border */
+  color: rgb(255, 255, 255) !important;           /* icon color */
+  width: 50px !important;            /* circle size */
+  height: 50px !important;           
+  border-radius: 50% !important;     /* makes it a circle */
+  display: flex !important;          /* center the icon */
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: 20px !important;        /* icon size */
+  pointer-events: auto;              /* keep clickable */
+  padding: 0 !important;             /* remove default padding */
+  cursor: pointer;                   /* show pointer on hover */
+  transition: background 0.3s ease;
+}
+
+.main-image-slider .owl-nav button:hover {
+  background-color: white !important; 
+  color: rgb(250, 248, 248) !important;           
+}
+
+
+
+@media (max-width: 576px) {
+  .main-image-slider .owl-nav button {
+    font-size: 1rem !important; /* Reduce icon size */
+    padding: 18px !important;      /* Reduce padding */
+    width: 20px;                   /* Smaller circle */
+    height: 20px;
+  }
+}
+
 
 
     .product-gallery .main-image {
@@ -878,7 +932,7 @@ html, body {
             margin-top: 20px;
         }
 
-        .social-icon {
+        .footer-section .social-icon {
             width: 40px;
             height: 40px;
             background-color: rgba(255, 255, 255, 0.1);
@@ -889,6 +943,10 @@ html, body {
             color: #ffffff;
             text-decoration: none;
             transition: background-color 0.3s ease;
+           
+        }
+        .footer-section .social-icon i{
+            color:white;
         }
 
         .social-icon:hover {
