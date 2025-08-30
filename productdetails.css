@@ -439,6 +439,11 @@ html, body {
     .btn-add-cart:hover { background:#095243; color:#fff; }
 
 
+    .qty-box button{
+        color: black !important;
+    }
+
+
 
 
 
@@ -487,6 +492,8 @@ html, body {
       background:#fff; 
       padding:8px 2rem; 
       cursor:pointer;
+      color: #1D2939 !important;
+      text-decoration: none !important;
      }
 
 
