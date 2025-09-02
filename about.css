@@ -236,8 +236,9 @@ html, body {
 
 .story-img {
   max-width: 400px;   /* smaller controlled size */
-  height: 100%;
+  height: auto;
   border-radius: 15px;
+ 
 }
 
 .story-title {
