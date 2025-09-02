@@ -1,0 +1,366 @@
+
+
+
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Prevent horizontal scrolling */
+html, body {
+  /* overflow-x: hidden; */
+  width: 100%;
+  background-color: #ffffff;
+  position: relative;
+}
+
+
+
+    @font-face {
+  font-family: 'IvyMode';
+  src: url('fonts/IvyMode-Regular.woff2') format('woff2'),
+       url('fonts/IvyMode-Regular.woff') format('woff'),
+       url('fonts/IvyMode-Regular.ttf') format('truetype');
+  font-weight: 100;
+  font-style: 100;
+}
+
+
+
+
+
+
+
+
+
+
+/* Top banner */
+    .top-banner {
+      background-color: #C3695E;
+      color: white;
+      padding: 5px 0;
+      font-size: 12px;
+      white-space: nowrap;
+      overflow: hidden;
+      position: relative;
+      font-family: 'Poppins', sans-serif;
+    }
+    .top-banner span {
+      display: inline-block;
+      padding-left: 100%;
+      animation: marquee 19s linear infinite;
+    }
+    @keyframes marquee {
+      from { transform: translateX(0); }
+      to { transform: translateX(-100%); }
+    }
+
+
+    .navbar {
+      background-color: #153743; 
+      padding-top: 0.75rem;
+      padding-bottom: 0.75rem;
+      font-family: 'Poppins', sans-serif;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+
+    }
+    .navbar-brand {
+      padding-left: 1rem; 
+    }
+    .navbar-nav {
+      gap: 2.5rem; 
+    }
+    .navbar-nav .nav-link {
+      color: white !important;
+      font-weight: 300;
+      transition: color 0.3s ease;
+      font-family: 'Poppins', sans-serif;
+
+    }
+    .navbar-nav .nav-link:hover {
+      color: #c96b5a !important;
+    }
+    .navbar-brand img {
+      height: 45px;
+    }
+    .icon-btn {
+      color: white;
+      font-size: 18px;
+      margin-left: 20px;
+      margin-right: 1rem; 
+      cursor: pointer;
+      transition: color 0.3s ease;
+    }
+    .icon-btn:hover {
+      color: #c96b5a;
+    }
+
+
+    .navbar-toggler {
+      border: none !important;
+      outline: none !important;
+      box-shadow: none !important;
+    }
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255,255,255,1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+
+    /* @media (max-width: 991px) {
+      .navbar-nav {
+        text-align: center;
+        gap: 1.5rem;
+      }
+    }
+
+    .sticky-top {
+      top: 0;
+      z-index: 1030;
+    } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+.terms-section {
+    background: #f8f9fa; /* light background */
+    font-family: 'Poppins', sans-serif;
+  }
+  .terms-section h2 {
+    color: #153743;
+    font-weight: 600;
+  }
+  .terms-section h5 {
+    color: #153743;
+    font-weight: 500;
+  }
+  .terms-section p {
+    color: #555;
+    line-height: 1.7;
+    font-weight: 400;
+  }
+  .terms-section a {
+    color: #48636d;
+    text-decoration: none;
+  }
+  .terms-section a:hover {
+    text-decoration: underline;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+.footer-section {
+            background-image: url('images/Frame\ 123.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #ffffff;
+            padding: 60px 0 40px 0;
+            position: relative;
+    font-family: 'Poppins', sans-serif;
+
+        }
+
+
+
+        .footer-section .container {
+            position: relative;
+            z-index: 2;
+        }
+
+        .footer-logo {
+            width: 120px;
+            height: 60px;
+            background: url('images/logo.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin-bottom: 20px;
+        }
+
+        .footer-description {
+            font-size: 1rem !important;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            color: #e0e0e0 !important;
+    font-family: 'Poppins', sans-serif;
+
+        }
+
+        .footer-heading {
+            font-size: 2rem;
+            font-weight: 600;
+            color: #ffffff;
+            margin-bottom: 25px;
+            letter-spacing: 0.5px;
+    font-family: 'IvyMode', serif;
+
+        }
+
+        .footer-nav-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .footer-nav-item {
+            margin-bottom: 12px;
+        }
+
+        .footer-nav-link {
+            color: #d0d0d0;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: color 0.3s ease;
+            display: block;
+        }
+
+        .footer-nav-link:hover {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .footer-section .social-icon {
+            width: 40px;
+            height: 40px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+           
+        }
+        .footer-section .social-icon i{
+            color:white;
+        }
+
+        .social-icon:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            color: #ffffff;
+        }
+
+        .contact-info {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #d0d0d0;
+        }
+
+        .contact-info strong {
+            color: #d0d0d0;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .phone-number {
+            color: #ffffff;
+            font-weight: 500;
+            margin-top: 10px;
+        }
+
+        .footer-copyright {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            font-size: 13px;
+            color: #b0b0b0;
+        }
+
+        @media (max-width: 768px) {
+            .footer-section {
+                padding: 40px 0 30px 0;
+            }
+            
+            .footer-heading {
+                margin-bottom: 15px;
+                margin-top: 30px;
+            }
+            
+            .col-md-3:first-child .footer-heading {
+                margin-top: 0;
+            }
+        }
+
+
+
+  
