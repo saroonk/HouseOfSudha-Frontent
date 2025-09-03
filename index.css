@@ -1604,6 +1604,8 @@ html, body {
 .brahmi-section{
               font-family: 'Poppins', sans-serif;
               margin-bottom: 6rem;
+                overflow-x: hidden;
+
              
 
 

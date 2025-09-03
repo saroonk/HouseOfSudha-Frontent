@@ -134,10 +134,9 @@ html, body {
 
 
 
-
-    .product-page { padding: 40px 0; }
+    .product-page { padding: 40px 0;
     
-
+    overflow-x: hidden;}
 
     .breadcrumb-item a{
         color: #167597;
